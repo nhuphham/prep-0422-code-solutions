@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 992px;
+      margin: auto;
+
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+      margin-bottom: 1rem;
+
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+    img {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h1>Indiana Jones</h1>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <img src="images/raiders.jpg" alt="Raiders of the lost Ark">
+        <h3>Raithers of the Lost Ark</h3>
+        <p>Lucas conceived Raiders of the Lost Ark
+        in the early 1970s. Seeking to modernize
+        the serial films of the earl 20th-centurv.
+        ne developed the idea furtner with
+        Kautman, who suggested the Ark as the
+        film's doal. Lucas eventuallv focused on
+        developing his 1977 space opera Star
+        wars.</p>
+      </div>
+      <div class="column">
+        <img src="images/temple.jpg" alt="Temple Of Doom">
+        <h3>Temple Of Doom</h3>
+        <p>The film was released to financial
+        Success but initial reviews were mixed.
+        criticizing its darker elements and
+        violence. However, critical opinion has
+        improved since 1984. citing the film's
+        intensitv and imagination</p>
+      </div>
+      <div class="column">
+        <img src="images/crusade.jpg" alt="The last Crusade">
+        <h3>The last Crusade</h3>
+        <p>After the mixed reaction to Indiana Jones
+        and the Temple of Doom. Spielbera chose
+        to tone down the dark tone and graphic
+        violence in the next installment. During
+        the five years between The Temple o
+        Doom and The Last Crusade, he and
+        executive producer Lucas reviewed
+        several scripts before acceptina Jeffery Boam's.</p>
+      </div>
+
+
+
+
+
+</body>
+</html>
